@@ -6,8 +6,9 @@
     <title>NexusShop - Modern E-Commerce</title>
     <link rel="stylesheet"
 href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-integrity="sha512-..."
-crossorigin="anonymous" referrerpolicy="no-referrer">
+integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+crossorigin="anonymous"
+referrerpolicy="no-referrer">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
     <style>
         :root {
@@ -783,6 +784,17 @@ crossorigin="anonymous" referrerpolicy="no-referrer">
                 grid-template-columns: 1fr;
             }
         }
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
     </style>
 </head>
 <body>
@@ -810,14 +822,16 @@ crossorigin="anonymous" referrerpolicy="no-referrer">
                     <li><a href="#"><i class="fas fa-info-circle"></em> About</a></li>
                     <li><a href="#"><i class="fas fa-envelope"></em> Contact</a></li>
                 </ul>
-<label for="username">Name</label>
-<input type="text" id="username" placeholder="Enter name">
+
             </nav>
             
             <div class="search-bar">
-                <input type="text" placeholder="Search products...">
-                <button type="submit"><i class="fas fa-search"></em></button>
-            </div>
+    <label for="product-search" class="sr-only">Search products</label>
+    <input type="text" id="product-search" placeholder="Search products...">
+    <button type="submit" aria-label="Search">
+        <i class="fas fa-search"></i>
+    </button>
+</div>
             
             <div class="header-icons">
                 <a href="#"><i class="far fa-user"></em></a>
@@ -1062,8 +1076,6 @@ crossorigin="anonymous" referrerpolicy="no-referrer">
     </section>
 
     <!-- Newsletter Section -->
-<label for="input2">Enter your details</label>
-<input type="text" id="input2" name="input2">
     <section class="newsletter">
         <div class="container">
             <h2>Stay Updated</h2>
