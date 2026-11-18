@@ -825,13 +825,8 @@ referrerpolicy="no-referrer">
 
             </nav>
             
-            <div class="search-bar">
-    <label for="product-search" class="sr-only">Search products</label>
-    <input type="text" id="product-search" placeholder="Search products...">
-    <button type="submit" aria-label="Search">
-        <i class="fas fa-search"></i>
-    </button>
-</div>
+            <label for="product-search" class="sr-only">Search products</label>
+<input type="text" id="product-search" placeholder="Search products...">
             
             <div class="header-icons">
                 <a href="#"><i class="far fa-user"></em></a>
