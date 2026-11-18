@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NexusShop - Modern E-Commerce</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+integrity="sha512-..."
+crossorigin="anonymous" referrerpolicy="no-referrer">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
     <style>
         :root {
@@ -808,6 +811,8 @@
                     <li><a href="#"><i class="fas fa-envelope"></i> Contact</a></li>
                 </ul>
             </nav>
+<label for="input1">Enter your details</label>
+<input type="text" id="input1" name="input1">
             
             <div class="search-bar">
                 <input type="text" placeholder="Search products...">
@@ -1057,6 +1062,8 @@
     </section>
 
     <!-- Newsletter Section -->
+<label for="input2">Enter your details</label>
+<input type="text" id="input2" name="input2">
     <section class="newsletter">
         <div class="container">
             <h2>Stay Updated</h2>
